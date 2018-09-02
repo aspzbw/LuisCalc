@@ -1,5 +1,6 @@
 package com.example.asp.luiscalc;
 
+        import android.graphics.Color;
         import android.support.v7.app.AppCompatActivity;
         import android.os.Bundle;
         import android.util.Log;
@@ -14,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Button> buttonArrayList= new ArrayList<>();
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         buttonArrayList.add((Button) findViewById(R.id.button1));
         buttonArrayList.add((Button) findViewById(R.id.button2));
         buttonArrayList.add((Button) findViewById(R.id.button3));
+
+
 
         start(null);
 
