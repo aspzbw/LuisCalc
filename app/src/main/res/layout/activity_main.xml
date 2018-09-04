@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewTimmer"
+        android:id="@+id/textViewTimer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
@@ -43,7 +43,7 @@
         android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/textViewScore"
         app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toEndOf="@+id/textViewTimmer"
+        app:layout_constraintStart_toEndOf="@+id/textViewTimer"
         app:layout_constraintTop_toTopOf="parent" />
 
     <android.support.constraint.ConstraintLayout
@@ -74,8 +74,10 @@
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
+                android:layout_margin="10dp"
                 android:layout_row="0"
                 android:layout_rowWeight="1"
+                android:background="@android:color/holo_green_light"
                 android:onClick="click"
                 android:tag="0"
                 android:text="00" />
@@ -87,8 +89,10 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
+                android:layout_margin="10dp"
                 android:layout_row="0"
                 android:layout_rowWeight="1"
+                android:background="@android:color/holo_purple"
                 android:onClick="click"
                 android:tag="1"
                 android:text="00" />
@@ -100,8 +104,10 @@
                 android:layout_column="0"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
+                android:layout_margin="10dp"
                 android:layout_row="1"
                 android:layout_rowWeight="1"
+                android:background="@android:color/holo_orange_light"
                 android:onClick="click"
                 android:tag="2"
                 android:text="00" />
@@ -113,8 +119,10 @@
                 android:layout_column="1"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
+                android:layout_margin="10dp"
                 android:layout_row="1"
                 android:layout_rowWeight="1"
+                android:background="@android:color/holo_blue_dark"
                 android:onClick="click"
                 android:tag="3"
                 android:text="00" />
